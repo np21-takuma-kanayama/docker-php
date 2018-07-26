@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:5.6-apache
 
 # install gd
 RUN apt-get update && apt-get install -y \
